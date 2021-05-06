@@ -8,6 +8,15 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html')
 })
 
+io.on('connection', (socket) => {
+    socket.on('chat message', (data) => {
+        io.emit('chat message', {
+            message: data.message,
+            name: data.name
+        })
+    })
+})
+
 app.use(express.static(__dirname + '/assets'))
 http.listen(3000, () => {
     console.log('Server is running')

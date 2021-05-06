@@ -8,19 +8,21 @@
     <title>Live Chat</title>
 </head>
 <body>
-    <header>
-        <ul class="messages">
-            <li>Message 1</li>
-            <li>Message 2</li>
-            <li>Message 3</li>
-        </ul>
-    </header>
+    <div class="main_container">
+        <header>
+            <ul class="messages">
+            </ul>
+        </header>
 
-    <form class="form">
-        <div class="name">Mikhail</div>
-        <input type="text" class="input" autocomplete="off">
-        <button class="btn">Send</button>
-    </form>
+        <form class="form">
+            <div class="name"></div>
+            <input type="text" class="input" autocomplete="off">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+
+    
+    <script src="/socket.io/socket.io.js"></script>
     <script src="./main.js"></script>
 </body>
 </html>

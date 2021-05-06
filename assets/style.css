@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+.form {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    display: flex;
+    height: 50px;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.15);
+    align-items: center;
+    -webkit-backdrop-filter: blur(10px);
+}
+
+header {
+    padding-bottom: 75px;
+}
+
+.name {
+    height: 35px;
+    background: cornsilk;
+    padding: 15px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    font-weight: 300px;
+}
+
+.input {
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    margin: 5px;
+    padding: 0 25px; 
+    display: flex;
+    width: 100%;
+}
+
+.btn {
+    background: chocolate;
+    border: none;
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.messages {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.messages li {
+    padding: 10px;
+}
+
+.messages li:nth-child(odd) {
+    background: gainsboro;
+}
+
+.messages li span {
+    font-weight: 500;
+}
