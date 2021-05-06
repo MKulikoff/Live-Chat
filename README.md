@@ -1,6 +1,6 @@
 # Live-Chat
 
-## Чат в режиме реального времени / Realtime chat application
+## Чат в режиме реального времени на Socket.io / Realtime chat application on Socket.io
 
 ### Technology Stack: 
 #### Front: HTML, CSS, JavaScript
