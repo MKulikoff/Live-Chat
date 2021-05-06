@@ -1,0 +1,20 @@
+{
+  "name": "Live-Chat",
+  "version": "1.0.0",
+  "description": "<hr>\r <img src=\"https://sun9-49.userapi.com/impg/ygT8oDrNOOxPcwG7mpIz_J_PUmav0ITuB7hFDA/x7H4lBh6pEw.jpg?size=1647x805&quality=96&sign=1368275a67efc609e331d9ce5ec47fea&type=album\" alt=\"drawing\"/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MKulikoff/Live-Chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MKulikoff/Live-Chat/issues"
+  },
+  "homepage": "https://github.com/MKulikoff/Live-Chat#readme"
+}
